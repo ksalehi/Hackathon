@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.group {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header-nav {
+  margin: 0 auto;
+  width: 900px;
+  /*height: 400px;*/
+  background: gray;
+  /*background: url('https://www.petfinder.com/wp-content/uploads/2013/09/cat-black-superstitious-fcs-cat-myths-162286659.jpg');*/
+}
+
+.header a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+}
